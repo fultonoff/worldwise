@@ -3,7 +3,7 @@
     {
       "cityName": "Lisbon",
       "country": "Portugal",
-      "emoji": "🇵🇹",
+      "emoji": "PT",
       "date": "2027-10-31T15:59:59.138Z",
       "notes": "My favorite city so far!",
       "position": {
@@ -15,7 +15,7 @@
     {
       "cityName": "Madrid",
       "country": "Spain",
-      "emoji": "🇪🇸",
+      "emoji": "ES",
       "date": "2027-07-15T08:22:53.976Z",
       "notes": "",
       "position": {
@@ -25,16 +25,52 @@
       "id": 806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Criuleni",
+      "country": "Moldova (the Republic of)",
+      "emoji": "MD",
+      "date": "2023-08-31T23:06:46.629Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "47.100044694025215",
+        "lng": "29.003906250000004"
       },
-      "id": 98443197
+      "id": 98443200
+    },
+    {
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2023-08-31T23:29:25.225Z",
+      "notes": "",
+      "position": {
+        "lat": "39.99540230937061",
+        "lng": "0.008583068847656252"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Velyka Oleksandrivka",
+      "country": "Ukraine",
+      "emoji": "UA",
+      "date": "2023-08-31T23:29:54.697Z",
+      "notes": "",
+      "position": {
+        "lat": "47.320206883852414",
+        "lng": "33.30780029296876"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Alcacer do Sal",
+      "country": "Portugal",
+      "emoji": "PT",
+      "date": "2023-08-31T23:30:55.715Z",
+      "notes": "",
+      "position": {
+        "lat": "38.370732250376875",
+        "lng": "-8.497924804687502"
+      },
+      "id": 98443204
     }
   ]
 }
