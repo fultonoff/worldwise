@@ -18,6 +18,8 @@ function City() {
   const { id } = useParams();
 
  const {getCity, currentCity, isLoading} = useCities();
+
+ console.log(currentCity);
  
  useEffect(()=>{
    getCity(id);
@@ -37,7 +39,7 @@ function City() {
 
       <div className={styles.row}>
         <h6>You went to {cityName} on</h6>
-        <p>{formatDate(date || null)}</p>
+        <p>{date}</p>
       </div>
 
       {notes && (
