@@ -19,7 +19,7 @@ function City() {
 
  const {getCity, currentCity, isLoading} = useCities();
 
- console.log(currentCity);
+
  
  useEffect(()=>{
    getCity(id);
