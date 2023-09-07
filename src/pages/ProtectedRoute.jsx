@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {useEffect} from 'react'
 import { useAuth } from '../context/FakeAuthContext'
 import { useNavigate } from 'react-router-dom'

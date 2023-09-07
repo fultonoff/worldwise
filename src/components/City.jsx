@@ -4,7 +4,6 @@ import styles from "./City.module.css";
 import { useCities } from "../context/CitiesContext";
 import Spinner from "./Spinner";
 import BackButton from "./BackButton";
-import ReactCountryFlag from "react-country-flag"
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -23,7 +22,7 @@ function City() {
  
  useEffect(()=>{
    getCity(id);
-  }, [id])
+  }, [id, getCity])
   
   const { cityName, emoji, date, notes } = currentCity;
   if(isLoading) return <Spinner/>
